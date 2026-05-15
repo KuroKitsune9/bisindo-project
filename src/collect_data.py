@@ -41,8 +41,8 @@ while True:
     key = cv2.waitKey(1)
 
     if key == ord('a'):
-        save_data("A", landmarks)
-        print("Saved A")
+        save_data("Aku", landmarks)
+        print("Saved Aku")
 
     elif key == ord('b'):
         save_data("B", landmarks)
@@ -55,6 +55,14 @@ while True:
     elif key == ord('d'):
         save_data("D", landmarks)
         print("Saved D")
+
+    elif key == ord('h'):
+        save_data("Halo", landmarks)
+        print("Saved Halo")
+    
+    elif key == ord('r'):
+        save_data("Rafi", landmarks)
+        print("Saved Rafi")
 
     elif key == 27:
         break
