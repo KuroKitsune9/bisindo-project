@@ -29,7 +29,7 @@ while True:
 
             prediction = model.predict([landmarks])
             cv2.putText(frame, f"Pred: {prediction[0]}", (10, 50),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,0), 2)
 
     cv2.imshow("Prediction", frame)
 
