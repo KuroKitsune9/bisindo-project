@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 import joblib
 
-model = joblib.load("model/model.pkl")
+model = joblib.load("../model/model.pkl")
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)

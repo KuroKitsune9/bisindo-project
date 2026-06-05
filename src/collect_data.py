@@ -10,9 +10,9 @@ mp_draw = mp.solutions.drawing_utils
 
 cap = cv2.VideoCapture(0)
 
-DATA_PATH = "data/processed/dataset.csv"
+DATA_PATH = "../data/processed/dataset.csv"
 
-os.makedirs("data/processed", exist_ok=True)
+os.makedirs("../data/processed", exist_ok=True)
 
 def save_data(label, landmarks):
     row = [label] + landmarks
